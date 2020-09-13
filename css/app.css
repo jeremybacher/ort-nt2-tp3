@@ -38,12 +38,12 @@
     padding:5px;
 }
 
-.log ul .player-turno {
+.log ul .player-turn {
     color: #eee;
     background-color: goldenrod;
 }
 
-.log ul .monster-turno {
+.log ul .monster-turn {
     color: #eee;
     background-color:rgb(3, 110, 12);
 }

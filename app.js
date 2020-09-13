@@ -87,8 +87,8 @@ new Vue({
         },
         cssEvento(turn) {
             return {
-                'player-turno': turn.esJugador,
-                'monster-turno': !turn.esJugador
+                'player-turn': turn.isPlayer,
+                'monster-turn': !turn.isPlayer
             }
         }
     }
